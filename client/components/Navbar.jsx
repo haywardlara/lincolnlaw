@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-      <p>Navbar</p>
+      <img src='inline.png' alt="lincoln law"/>
     </>
   )
 }
