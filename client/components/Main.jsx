@@ -3,12 +3,12 @@ import React from "react"
 const Main = () => {
   return (
     <>
-      <div>
-        <img src="logolarge.png" alt="lincoln law logo" />
+      <section id="home">
+        <img src="logolarge.png" alt="lincoln law logo"/>
         <h1>Legal Solutions For Life</h1>
         <p>scroll for more</p>
-      </div>
-      <div>
+      </section>
+      <section id="what">
         <h2>What we do</h2>
         <p>Our services include:</p>
         <ul>
@@ -19,8 +19,8 @@ const Main = () => {
           <li>Commercial</li>
           <li>General practise</li>
         </ul>
-      </div>
-      <div>
+      </section>
+      <section id="who">
         <h2>Who we are</h2>
         <p>
           We are a local law firm, catering for the legal needs for people in
@@ -35,8 +35,8 @@ const Main = () => {
         <img src="karla_hawke.jpg" alt="headshot of karla hawke" />
         <p>Karla Hawke</p>
         <p>Registered Legal Executive</p>
-      </div>
-      <div>
+      </section>
+      <section id="where"> 
         <h2>Where to find us</h2>
         <div>
           <a href="https://goo.gl/maps/7PpBY2Fj4vKLYwoVA">
@@ -52,7 +52,7 @@ const Main = () => {
           </p>
           <p>Closed Public Holidays</p>
         </div>
-      </div>
+      </section>
     </>
   )
 }

@@ -39,7 +39,8 @@
     ]
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-anchor-link-smooth-scroll": "^1.0.12"
   },
   "devDependencies": {
     "@babel/core": "^7.12.10",
